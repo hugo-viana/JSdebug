@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="../src/jsdebug.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+    <div id="logDiv"></div>
+
+    <script src="../src/jsdebug.js"></script>
+    <script>
+        console.log("Before activating HTMLLogger");
+        let logDiv = document.getElementById("logDiv");
+        console = new HTMLLogger(logDiv);
+        console.log("After activating HTMLLogger");
+    </script>
+
+    <script>
+        console.log("Running all other scripts");
+    </script>
+
+</body>

@@ -1,0 +1,15 @@
+.log-entry.log-error {
+    color: red;
+}
+.log-entry.log-warn {
+    color: goldenrod;
+}
+.log-entry.log-info {
+    color: darkblue;
+}
+.log-entry.log-debug {
+    color: darkgrey;
+}
+.log-entry.log-log {
+    color: black;
+}
