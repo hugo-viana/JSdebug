@@ -1,3 +1,6 @@
+.log-entry {
+    font-size: 0.8rem;
+}
 .log-entry.log-error {
     color: red;
 }
@@ -8,8 +11,8 @@
     color: darkblue;
 }
 .log-entry.log-debug {
-    color: darkgrey;
+    color: grey;
 }
 .log-entry.log-log {
-    color: black;
+    color: darkcyan;
 }
